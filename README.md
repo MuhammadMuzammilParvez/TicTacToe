@@ -67,9 +67,9 @@ tic_tac_toe.exe # Windows
 
 ## Contributors 
 
-Muhammad Muzammil CT-129 
-Muhammad Yaqoob Aziz CT-140
-Muhammad Hammad CT-125
-Syed Muhammad Hanzila CT-127
+Muhammad Muzammil CT-129<br><br>
+Muhammad Yaqoob Aziz CT-140<br><br>
+Muhammad Hammad CT-125<br><br>
+Syed Muhammad Hanzila CT-127<br><br>
 
 
