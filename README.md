@@ -1,89 +1,75 @@
-Tic-Tac-Toe Console Game in C
+# 🎮 Tic Tac Toe Game (C Programming)
 
-#Description
+A simple *two-player Tic Tac Toe game* written in C.  
+Players enter their names, take turns choosing positions (1-9), and the program checks for *wins, invalid moves, and draws*. The game uses a **2D array**, input validation, and clean board printing.
 
-This project is a console-based two-player Tic-Tac-Toe game implemented in the C programming language. Two players take turns placing their symbols (X or O) on a 3×3 grid. The game automatically checks for wins, draws, and ensures that all moves are valid. It provides a clear, interactive interface to guide players, making it simple and engaging for users to play directly in the terminal.
+---
 
-The program is designed for beginners learning C and game logic implementation, focusing on arrays, input validation, loops, and condition checking.
+## 📌 Table of Contents
+1. [Description]
+2. [Features](#features)  
+3. [Technologies Used](#technologies-used)  
+4. [How to Run](#how-to-run)  
+5. [Screenshots](#screenshots-optional)  
+6. [Author](#author)
 
-#Features
+---
 
-Interactive 3×3 grid displayed in the console
+## 📝 Description
+This project is a console-based *Tic Tac Toe game* that allows two players to compete against each other.  
+It includes input validation, a sample guide board, automatic win and draw detection, and a clean UI using a 2D array.
 
-Players can enter moves using numbers 1–9 corresponding to board positions
+Players must enter positions from *1 to 9*, and the program updates the board after each move.  
+The game ends when a player wins or if the board is full (draw).
 
-Input validation ensures only numbers within range are accepted
+---
 
-Prevents moves on already occupied cells
+## ⭐ Features
+- ✔ Two-player gameplay (Player X and Player O)  
+- ✔ Enter and store player names  
+- ✔ Shows sample Tic Tac Toe guide  
+- ✔ Input validation  
+- ✔ Detects:
+  - Row wins  
+  - Column wins  
+  - Diagonal wins  
+  - Draws  
+- ✔ Prevents overwriting cells  
+- ✔ Uses functions and modular programming  
 
-Automatic detection of winners (checks all rows, columns, and diagonals)
+---
 
-Detects draw conditions when the board is full without a winner
+## 🧰 Technologies Used
+| Component       | Description |
+|-----------------|-------------|
+| Language        | C |
+| Compiler        | GCC / MinGW / Turbo C / any C compiler |
+| Libraries Used  | stdio.h, stdlib.h |
+| Concepts Used   | Arrays, Loops, 2D Arrays, Functions, Conditionals |
 
-Alternates turns between players
+---
 
-Displays the board after every move for better game tracking
+## 🚀 How to Run
+1. Clone or download the repository.  
+2. Open the project in any C compiler (GCC, MinGW, Turbo C, etc.).  
+3. Compile the code:  
+   ```bash
+   gcc tic_tac_toe.c -o tic_tac_toe
+./tic_tac_toe   # Linux/Mac
+tic_tac_toe.exe # Windows
 
-Player names are stored and displayed for a personalized experience
+## ScreenShots
+<img width="480" height="218" alt="image" src="https://github.com/user-attachments/assets/e985d49e-48d1-4a35-b97c-664d3f234df9" />
 
-Technologies Used
+<img width="593" height="333" alt="image" src="https://github.com/user-attachments/assets/cfb62bef-4b09-42a6-8035-35804a6309b9" />
 
-Programming Language: C
+<img width="786" height="270" alt="image" src="https://github.com/user-attachments/assets/96702b50-d5c4-4500-b031-3c3e8a22ebd8" />
 
-Libraries:
+## Contributors 
 
-stdio.h – for input/output operations
-
-stdlib.h – for system commands like clearing the console
-
-Compatible with Windows (system("cls"))
-
-Can be modified for Linux/Mac by replacing system("cls") with system("clear")
-
-How to Run
-
-Save the source code as tictactoe.c.
-
-Open a terminal or command prompt.
-
-Compile the program using a C compiler:
-
-gcc tictactoe.c -o tictactoe
-
-Run the compiled program:
-
-./tictactoe
-
-Enter names for Player X and Player O.
-
-Follow the on-screen prompts to select positions (1–9) and play the game.
-
-The game will continue until a player wins or a draw occurs.
-
-Example Gameplay
-
-Enter name for Player X: Alice
-Enter name for Player O: Bob
-
-Choose your move using these numbers:
-
- 1 | 2 | 3
----|---|---
- 4 | 5 | 6
----|---|---
- 7 | 8 | 9
-
-
-Alice wins!
-
-<img width="480" height="218" alt="image" src="https://github.com/user-attachments/assets/47636c65-6802-4078-863f-d3f77e00f548" />
-
-Contributors
-
-**Muhammad Muzammil CT-129 
+Muhammad Muzammil CT-129 
 Muhammad Yaqoob Aziz CT-140
 Muhammad Hammad CT-125
-Syed Muhammad Hanzila CT-127**
-
+Syed Muhammad Hanzila CT-127
 
 
