@@ -6,7 +6,7 @@ Players enter their names, take turns choosing positions (1-9), and the program 
 ---
 
 ## 📌 Table of Contents
-1. [Description]
+1. [Description](#description)  
 2. [Features](#features)  
 3. [Technologies Used](#technologies-used)  
 4. [How to Run](#how-to-run)  
