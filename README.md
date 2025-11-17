@@ -1,12 +1,12 @@
 Tic-Tac-Toe Console Game in C
 
-Description
+#Description
 
 This project is a console-based two-player Tic-Tac-Toe game implemented in the C programming language. Two players take turns placing their symbols (X or O) on a 3×3 grid. The game automatically checks for wins, draws, and ensures that all moves are valid. It provides a clear, interactive interface to guide players, making it simple and engaging for users to play directly in the terminal.
 
 The program is designed for beginners learning C and game logic implementation, focusing on arrays, input validation, loops, and condition checking.
 
-Features
+#Features
 
 Interactive 3×3 grid displayed in the console
 
